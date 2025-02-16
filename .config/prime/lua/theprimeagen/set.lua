@@ -1,34 +1,31 @@
-local o = vim.opt
+vim.optguicursor = ""
 
-o.guicursor = ""
+vim.optnumber = true
+vim.optrelativenumber = true
 
-o.number = true
-o.relativenumber = true
+vim.opttabstop = 4
+vim.optsofttabstop = 4
+vim.optshiftwidth = 4
+vim.optexpandtab = true
 
-local indent = 2
-o.tabstop = indent
-o.softtabstop = indent
-o.shiftwidth = indent
-o.expandtab = true
+vim.optsmartindent = true
 
-o.smartindent = true
+vim.optwrap = false
 
-o.wrap = false
+vim.optswapfile = false
+vim.optbackup = false
+vim.optundodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.optundofile = true
 
-o.swapfile = false
-o.backup = false
-o.undodir = os.getenv("HOME") .. "/.vim/undodir"
-o.undofile = true
+vim.opthlsearch = false
+vim.optincsearch = true
 
-o.hlsearch = false
-o.incsearch = true
+vim.opttermguicolors = true
 
-o.termguicolors = true
+vim.optscrolloff = 8
+vim.optsigncolumn = "yes"
+vim.optisfname:append("@-@")
 
-o.scrolloff = 8
-o.signcolumn = "yes"
-o.isfname:append("@-@")
+vim.optupdatetime = 50
 
-o.updatetime = 50
-
-o.colorcolumn = "80"
+vim.optcolorcolumn = "80"
