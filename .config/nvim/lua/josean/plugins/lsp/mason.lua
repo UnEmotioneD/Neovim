@@ -26,10 +26,9 @@ return {
         'cssls',
         'ts_ls',
         'emmet_ls',
-        -- 'clangd',
         'pyright',
-        'taplo', -- .toml file LSP
-        'typos_lsp', -- spell checker
+        'typos_lsp',
+        'taplo', -- .toml LSP
       },
       automatic_installation = true,
     })
@@ -39,14 +38,10 @@ return {
         'stylua',
         'prettier',
         'eslint_d',
-        'clang-format',
-        'cpplint',
-        'isort', -- Import sorter
-        'black', -- Formatter
+        'isort',
+        'black',
         'pylint',
-        'debugpy',
-        -- 'codelldb',
-        'shfmt', -- sh formatter
+        'shfmt',
       },
     })
   end,

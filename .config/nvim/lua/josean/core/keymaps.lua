@@ -50,6 +50,9 @@ m.set('n', 'N', 'Nzz')
 
 m.set('n', '<leader>cs', ':setlocal spell! spell?<CR>', { desc = 'Toggle spell check' })
 
+-- Do not override reg
+m.set('v', 'p', 'pgvy', { silent = true })
+
 ---------------------
 -- Plugin Keymaps --
 ---------------------
