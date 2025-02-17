@@ -4,4 +4,5 @@ return {
   event = 'VeryLazy',
   cmd = { 'LiveServerStart', 'LiveServerStop' },
   config = true,
+  enabled = true,
 }
