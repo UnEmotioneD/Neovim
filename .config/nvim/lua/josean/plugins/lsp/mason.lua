@@ -26,7 +26,7 @@ return {
         'cssls',
         'ts_ls',
         'emmet_ls',
-        'clangd',
+        -- 'clangd',
         'pyright',
         'taplo', -- .toml file LSP
         'typos_lsp', -- spell checker
@@ -45,7 +45,7 @@ return {
         'black', -- Formatter
         'pylint',
         'debugpy',
-        'codelldb',
+        -- 'codelldb',
         'shfmt', -- sh formatter
       },
     })

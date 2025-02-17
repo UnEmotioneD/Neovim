@@ -8,7 +8,8 @@ return {
   config = function()
     local treesitter = require('nvim-treesitter.configs')
 
-    treesitter.setup({ -- enable syntax highlighting
+    treesitter.setup({
+      -- enable syntax highlighting
       highlight = {
         enable = true,
       },
@@ -16,6 +17,8 @@ return {
       autotag = {
         enable = true,
       },
+      sync_install = false,
+      auto_install = true,
       ensure_installed = {
         'json',
         'javascript',
@@ -24,11 +27,8 @@ return {
         'yaml',
         'html',
         'css',
-        'prisma',
         'markdown',
         'markdown_inline',
-        'svelte',
-        'graphql',
         'bash',
         'lua',
         'vim',
@@ -38,12 +38,10 @@ return {
         'vimdoc',
         'c',
         'python',
-        'rust',
+        -- 'rust',
       },
-      sync_install = true,
-      auto_install = true,
-      ignore_install = {},
       modules = {},
+      ignore_install = {},
       incremental_selection = {
         enable = true,
         keymaps = {
