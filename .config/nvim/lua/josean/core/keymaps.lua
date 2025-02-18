@@ -61,11 +61,6 @@ m.set('v', 'p', 'pgvy', { silent = true })
 m.set('n', '<leader>wr', '<Cmd>SessionRestore<CR>', { desc = 'Restore session for cwd' })
 m.set('n', '<leader>ws', '<Cmd>SessionSave<CR>', { desc = 'Save session for auto session root dir' })
 
--- Crates
-m.set('n', '<leader>uc', function()
-  require('crates').upgrade_all_crates()
-end, { desc = 'Update crates' })
-
 -- ChatGPT
 m.set('n', '<leader>go', '<Cmd>ChatGPT<CR>', { desc = '[g]pt [o]pen' })
 m.set('n', '<leader>ge', '<Cmd>ChatGPTEditWithInstruction<CR>', { desc = '[g]pt [e]dit with instruction' })

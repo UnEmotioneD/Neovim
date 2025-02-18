@@ -11,7 +11,6 @@ return {
       },
     },
     spec = {
-      { '<leader>d', group = '[D]ebugger' },
       { '<leader>e', group = '[E]xplorer' },
       { '<leader>f', group = '[F]ind' },
       { '<leader>g', group = 'Chat [G]pt' },
