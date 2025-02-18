@@ -36,6 +36,7 @@ return {
     mason_tool_installer.setup({
       ensure_installed = {
         'stylua',
+        'jsonlint',
         'prettier',
         'eslint_d',
         'isort',
